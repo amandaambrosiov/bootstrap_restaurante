@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+:root{
+    --corVerde:#00BF63;
+    --corVerdeEscuro: #008846;
+    --corBranca: #ffffff;
+}
+*{
+    font-family: 'Young Serif', serif;
+}
+.ativo{
+    color: var(--corVerde);
+    margin-right: 20px;
+    }
+    .nav-link:hover{
+color: var(--corVerdeEscuro);
+    }
+
+.icones{
+    margin-right: 10px;
+}
