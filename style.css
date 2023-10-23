@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap');
 :root{
     --corVerde:#00BF63;
     --corVerdeEscuro: #008846;
     --corBranca: #ffffff;
 }
 *{
-    font-family: 'Young Serif', serif;
+    /* font-family: 'Young Serif', serif; */
+    font-family: 'Playpen Sans', cursive;
 }
 .ativo{
     color: var(--corVerde);
@@ -17,4 +19,66 @@ color: var(--corVerdeEscuro);
 
 .icones{
     margin-right: 10px;
+}
+.nav-item{
+    margin-right: 20px;
+}
+.space{
+    margin: 2rem 5rem;
+}
+.initial{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.imgpratos{
+    width: 300px;
+    height: 300px;
+    margin-top: 2rem;
+}
+.titulo{
+    color: var(--corVerde);
+}
+.desc{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.navbar-text a:hover{
+    color: var(--corVerde);
+}
+.mybtn{
+    background-color: #00BF63;
+    border-radius: 0;
+    color: #ffffff;
+    transition: all .2s ease-in-out;
+}
+.mybtn:hover{
+    transform: scale(1.2);
+    background-color: #00BF63;
+    color: #ffffff;
+}
+.modal-header{
+    background-color: #00BF63;
+}
+.footer1{
+    bottom: 0;
+    background-color: #00BF63;
+    padding: 20px;
+}
+.footer1 a{
+    color: #ffffff;
+}
+.footer_icon{
+color: white;
+background-color: #008846;
+border-radius: 50%;
+padding: 10px;
+}
+.footer_icon:hover{
+    background-color: #016b38;
+}
+.end{
+    display: flex;
+    float: right;
 }
